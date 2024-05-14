@@ -1,0 +1,54 @@
+/* 
+ coded by flackxdxd#0
+ github.com/flackxdxd */
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html,
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+#status {
+  transition: all 0.3s;
+  margin-top: 10px;
+  padding: 9px;
+  max-width: 90px;
+  font-size: 15px;
+  border-radius: 19px;
+}
+
+.status-icon-online {
+  height: 15px;
+  margin-right: 7px;
+  margin-bottom: -1px;
+}
+
+.status-icon-offline {
+  height: 25px;
+  margin-right: 2px;
+  margin-bottom: -7px;
+}
+
+.online {
+  opacity: 1;
+  background-color: #0f0f0f;
+  color: white;
+}
+
+.offline {
+  opacity: 0.7;
+  background-color: #0f0f0f;
+  color: white;
+}
