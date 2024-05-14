@@ -10,4 +10,4 @@
 
 # Demo
 
-[https://](https://discord-user-status.vercel.app/)
+[Website Preview](https://discord-user-status.vercel.app/)
